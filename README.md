@@ -65,6 +65,8 @@ A simple neural network layer is used to classify two type of signals
 
   
 ## 3D printed parts
+The designs for 3D printed bionic hand
+
 <div style="display: flex; justify-content: space-between;">
   <img src="images/hand_model1.png" alt="3D design 1" width="400" />
   <img src="images/hand_model2.png" alt="3D design 2" width="400" />
@@ -88,11 +90,9 @@ A simple neural network layer is used to classify two type of signals
 </div>
 
 
- [<img src="https://i.ibb.co/TkTKkF0/thumbnail.png" width="50%">](https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
-
-
-
+ 
 <div style="display:flex;">
+  [<img src="https://i.ibb.co/TkTKkF0/thumbnail.png" width="50%">](https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
   <img src="images/confusion_matrix.png" alt="Flowchart" width="400" />
 </div>
 
