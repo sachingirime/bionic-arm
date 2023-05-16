@@ -26,7 +26,7 @@ We will have to setup the UI and API separately. Also, separate arduino code for
 
 We are using fast API. Follow these steps in terminal
 
-``` cd API 
+`cd API`
  pip install -r requirements.txt
 uvicorn main:app --reload```
 
