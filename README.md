@@ -27,8 +27,8 @@ We will have to setup the UI and API separately. Also, separate arduino code for
 We are using fast API. Follow these steps in terminal
 
 `cd API`
- pip install -r requirements.txt
-uvicorn main:app --reload```
+`pip install -r requirements.txt`
+`uvicorn main:app --reload`
 
 You will get INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit) after fastapi runs successfully
 
