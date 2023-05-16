@@ -28,7 +28,7 @@ https://wiki.seeedstudio.com/Grove-EMG_Detector/
  - 2 channel EMG sensor were placed at wrist
  - Two classes, paper and scissors, each having 300 data points
  - Each data point having 6 Second window period
- - Noramlization and Indexing during preprocessing
+ - Noramlisation and Indexing during preprocessing
  
  <div style="display: flex; justify-content: space-between;">
   <img src="images/paper.png" alt="Collection1" width="400" />
@@ -57,7 +57,7 @@ https://wiki.seeedstudio.com/Grove-EMG_Detector/
   
 ## Model Architecture
 
-A simple neural network layer is used to classify two signals
+A simple neural network layer is used to classify two type of signals
 
 <div style="display:flex;">
   <img src="images/model_architecture.png" alt="Flowchart" width="400" />
@@ -85,7 +85,8 @@ A simple neural network layer is used to classify two signals
   <img src="images/2.png" alt="hand1" width="400" />
   <img src="images/3.png" alt="hand2" width="400" />
 </div>
- [![Video](images/final_video.mp4)](images/final_video.mp4)
+[![Alt Text](images/1.png)](images/final_video.mp4)
+
 
     
  
