@@ -19,8 +19,10 @@ sEMG based Bionic arm neural network model and its real life implementation
   
  
 
-##Installation and Running of project
-We will have to setup the UI and API separately. Also, separate arduino code for prosthetic arm motion. Follow these three steps as below
+## Installation and Running of project
+We will have to setup the UI and API separately. Also, separate arduino code for prosthetic arm motion. 
+    
+## Follow these three steps as below
 
 ### 1. API setup
 
