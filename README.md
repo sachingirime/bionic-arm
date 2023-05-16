@@ -89,10 +89,9 @@ The designs for 3D printed bionic hand
 
 </div>
 
-
+  [<img src="https://i.ibb.co/TkTKkF0/thumbnail.png" width="50%">](https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
  
 <div style="display:flex;">
-  [<img src="https://i.ibb.co/TkTKkF0/thumbnail.png" width="50%">](https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
   <img src="images/confusion_matrix.png" alt="Flowchart" width="400" />
 </div>
 
