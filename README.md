@@ -5,7 +5,9 @@ sEMG based Bionic arm neural network model and its real life implementation
 <local link to image file>
   
 ## Model Architecture
-<local link to image file>
+Simple Neural Network implementation
+![Model Architecture](images/model_architecture.png)
+
   
 ## 3D printed parts
   <local link to image file>
