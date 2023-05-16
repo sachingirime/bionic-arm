@@ -84,12 +84,11 @@ A simple neural network layer is used to classify two type of signals
  <div style="display: flex; justify-content: space-between;">
   <img src="images/2.png" alt="hand1" width="400" />
   <img src="images/3.png" alt="hand2" width="400" />
-  [<img src="https://i.ibb.co/TkTKkF0/thumbnail.png" width="50%">](https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
-  
+
 </div>
 
 
-(https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
+ [<img src="https://i.ibb.co/TkTKkF0/thumbnail.png" width="50%">](https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
 
 
 
