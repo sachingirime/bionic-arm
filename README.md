@@ -7,7 +7,9 @@ The project "Electromyography signals to control prosthetic hands" focuses on de
   <img src="images/flowchart.png" alt="Flowchart" width="400" />
 </div>
   
-## sEMG sensors 
+## Sensor Used
+
+We used two Grove sEMG sensor 
   
 - 3.5mm Connector
 - 6 Disposable Surface Electrodes
