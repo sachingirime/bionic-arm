@@ -74,11 +74,11 @@ bionic arm performing the predicted motion either "paper" or "scissors".
 ### 4. Real time implementation (Optional)
 
 If you have working 2 channel sensors you can try this in real time. 
-If you want to implement this project at real time then follow following steps:
+If you want to implement this project at real time then follow following steps to modify the code :
 
 - `cd API`<br>
 - `uvicorn realtime:app --reload`<br>
-- `axios.get('http://127.0.0.1:8000/')`<br>
+- `axios.get('http://127.0.0.1:8000/') @ UI -> bionicarm -> src -> components -> Uploadfile.js -> line 35`<br>
 
 
 
