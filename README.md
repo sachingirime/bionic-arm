@@ -87,6 +87,14 @@ A simple neural network layer is used to classify two type of signals
 </div>
 [![Alt Text](https://img.youtube.com/vi/Xmg6TJ2kYnA/0.jpg)](https://www.youtube.com/watch?v=Xmg6TJ2kYnA)
 
+[![Bionic Arm]          // Title
+(https://i.ibb.co/3FMVDkk/2.png)] // Thumbnail
+(https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")    // Video Link
+
+<div style="display:flex;">
+  <img src="images/confusion_matrix.png" alt="Flowchart" width="400" />
+</div>
+
 
 
     
