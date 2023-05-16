@@ -85,7 +85,8 @@ A simple neural network layer is used to classify two type of signals
   <img src="images/2.png" alt="hand1" width="400" />
   <img src="images/3.png" alt="hand2" width="400" />
 </div>
-[![Alt Text](images/1.png)](images/final_video_1.mp4)
+[![Alt Text](https://img.youtube.com/vi/Xmg6TJ2kYnA/0.jpg)](https://www.youtube.com/watch?v=Xmg6TJ2kYnA)
+
 
 
     
