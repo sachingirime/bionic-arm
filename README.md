@@ -166,7 +166,6 @@ If you want to implement this project at real time then follow following steps t
 - `axios.get('http://127.0.0.1:8000/') # file directory UI -> bionicarm -> src -> components -> Uploadfile.js -> line 35`<br>
 
 
-
-
+### Thank you for going through this all. Your feedback is appreciated!
 
 
