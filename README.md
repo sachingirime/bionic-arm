@@ -22,12 +22,44 @@ https://wiki.seeedstudio.com/Grove-EMG_Detector/
 </div>
   
  ## Data Collection and Preprocessing
+ 
+ - 2 channel EMG sensor were placed at wrist
+ - Two classes, paper and scissors, each having 300 data points
+ - Each data point having 6 Second window period
+ - Noramlization and Indexing during preprocessing
+ 
+ <div style="display: flex; justify-content: space-between;">
+  <img src="images/paper.png" alt="Collection1" width="400" />
+  <img src="images/scissors.png" alt="Collection2" width="400" />
+</div>
+ 
   
  ## Feature Extraction 
+ 
+ Fourteen different features types were extracted from preprocessed dataset
+ 
+- Standard Deviation
+- Root Mean Square
+- Minimum
+- Maximum
+- Slope Sign Change
+- Kurtosis
+- Mean Absolute Deviation
+- Willison Amplitude
+- Waveform Length
+- Mean Absolute Value
+- Amplitude First Burst
+- Average Amplitude Change
+- Zero Crossings
+- Auto Regression
   
 ## Model Architecture
 
-![Model Architecture](images/model_architecture.png)
+A simple neural network layer is used to classify two signals
+
+<div style="display:flex;">
+  <img src="images/model_architecture.png" alt="Flowchart" width="400" />
+</div>
 
   
 ## 3D printed parts
@@ -40,8 +72,19 @@ https://wiki.seeedstudio.com/Grove-EMG_Detector/
 
 
     
-## Final motion
-  <local link to video file>
+## Final Outputs
+ 
+ The final Bionic arm along with a video showing the prediction of saved data in csv file. After model predicts the class 
+ the arm shows the corresponding finger motion. 
+ 
+ Also the confusion matrix on test data is shown below.
+ 
+ <div style="display: flex; justify-content: space-between;">
+  <img src="images/2.png" alt="hand1" width="400" />
+  <img src="images/3.png" alt="hand2" width="400" />
+</div>
+ [![Video](images/final_video.mp4)](images/final_video.mp4)
+
     
  
     
