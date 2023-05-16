@@ -78,7 +78,7 @@ If you want to implement this project at real time then follow following steps t
 
 - `cd API`<br>
 - `uvicorn realtime:app --reload`<br>
-- `axios.get('http://127.0.0.1:8000/') @ UI -> bionicarm -> src -> components -> Uploadfile.js -> line 35`<br>
+- `axios.get('http://127.0.0.1:8000/') # file directory UI -> bionicarm -> src -> components -> Uploadfile.js -> line 35`<br>
 
 
 
