@@ -1,7 +1,25 @@
 # sEMG based 3D printed Bionic-arm
 sEMG based Bionic arm neural network model and its real life implementation
 
-Installation and Running of project
+## System Flowchart
+<local link to image file>
+  
+## Model Architecture
+<local link to image file>
+  
+## 3D printed parts
+  <local link to image file>
+    
+## Final motion
+  <local link to video file>
+    
+ 
+    
+ 
+  
+ 
+
+##Installation and Running of project
 We will have to setup the UI and API separately. Also, separate arduino code for prosthetic arm motion. Follow these three steps as below
 
 1. API setup
@@ -58,6 +76,8 @@ If you want to implement this project at real time then follow following steps:
 a. cd API
 b. uvicorn realtime:app --reload
 c. 'get' request to base directory http://127.0.0.1:8000/
+
+
 
 
 
