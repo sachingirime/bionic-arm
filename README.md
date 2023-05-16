@@ -10,7 +10,7 @@ sEMG based Bionic arm neural network model and its real life implementation
 
   
 ## 3D printed parts
-<div style="display:flex;">
+<div style="display: flex; justify-content: space-between;">
   <img src="images/hand_model1.png" alt="3D design 1" width="400" />
   <img src="images/hand_model2.png" alt="3D design 2" width="400" />
   <img src="images/hand_model3.png" alt="3D design 3" width="400" />
