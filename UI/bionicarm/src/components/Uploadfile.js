@@ -100,9 +100,9 @@ return (
         <div>
           <h3>Prediction results</h3>
 
-          <h4 className="text-center" style={{ color: 'red' }}>
+          <h1 className="text-center" style={{ color: 'red' }}>
             {response === '0' ? 'Paper' : response === '1' ? 'Scissors' : ''}
-          </h4>
+          </h1>
 
           <p className='text-center text-bold'>"Hand motion in Progress"</p>
 
