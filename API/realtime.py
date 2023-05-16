@@ -39,9 +39,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-csv_file = ''
-
-
 
 async def arm_motion(gesture):
     #arduino uno - /dev/cu.usbmodem101
@@ -61,22 +58,42 @@ async def arm_motion(gesture):
         ser.write(b'4')  # signal to move the prosthetic arm for ok gesture
 
     ser.close()
- 
+
+async def collect_data():
+    # code to get the emg signal from
+    start_time = time.time()
+    # nano = /dev/cu.usbserial-110
+    #uno = /dev/cu.usbmodem101 (Arduino Uno)
+    ser = serial.Serial('/dev/cu.usbserial-10', 115200) # replace 'COM4' with the name of the serial port connected to Arduino
+
+    data = []
+    while True:
+        arduino_data = ser.read(4) # read 4 bytes from the serial port
+        analog_values = struct.unpack('>hh', arduino_data) # unpack the binary data into two 16-bit integers
+        analog_values_scaled = [x/1023 for x in analog_values]
+        data.append(analog_values_scaled)
+        print(analog_values)
+        
+        if time.time() - start_time > 8:
+            break
+
+    df = pd.DataFrame(data)
+    df.to_csv('input.csv', mode='w', index=True, header=False)
+    
 
 @app.get("/")
 async def root():
 
-    return {"message": "Hello World"}
-
-@app.post("/uploadcsv/")
-async def file_upload(file: UploadFile = File(...)):
-    with open(f"{file.filename}", "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
-    csv_file = file.filename
-
     
 
-    # Load the saved model
+    #collect realtime data
+    collect_data()
+
+    # load created csv file
+
+    csv_file = 'input.csv'
+
+      # Load the saved model
     model = load_model('sequential.h5',compile=False)
     model.compile()
     df = pd.read_csv(csv_file, header = None)
@@ -95,9 +112,7 @@ async def file_upload(file: UploadFile = File(...)):
 
 
     return {"prediction class":str(y_pred[0])}
-    
 
 
-        
 
-
+  
