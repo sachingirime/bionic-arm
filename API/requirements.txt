@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+keras
+joblib
+pandas
+numpy
+pyserial
+shutil
