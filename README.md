@@ -13,6 +13,8 @@ The project "Electromyography signals to control prosthetic hands" focuses on de
 - 1000mm Cable Leads
 - No additional power supply
   
+https://wiki.seeedstudio.com/Grove-EMG_Detector/
+  
  ## Data Collection and Preprocessing
   
  ## Feature Extraction 
