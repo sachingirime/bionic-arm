@@ -89,7 +89,7 @@ A simple neural network layer is used to classify two type of signals
 </div>
 
 
- [<img src="https://i.ibb.co/TkTKkF0/thumbnail.png" width="50%">](https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
+(https://www.youtube.com/watch?v=Xmg6TJ2kYnA "Bionic Arm")
 
 
 
