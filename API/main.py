@@ -1,6 +1,5 @@
 from fastapi import FastAPI, UploadFile, File
 from keras.models import load_model
-
 import joblib
 import pandas as pd
 import numpy as np
@@ -8,27 +7,11 @@ import serial
 import struct
 import time
 import asyncio
-
-
-
-
-
 import shutil
 from fastapi.middleware.cors import CORSMiddleware
 import os
 
-
-
-
-
-
-
-
-
 app = FastAPI()
-
-
-
 origins = ["*"]
 
 app.add_middleware(
@@ -40,8 +23,6 @@ app.add_middleware(
 )
 
 csv_file = ''
-
-
 
 async def arm_motion(gesture):
     #arduino uno - /dev/cu.usbmodem101
